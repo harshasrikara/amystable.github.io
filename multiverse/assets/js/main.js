@@ -278,4 +278,12 @@
 					$main[0]._poptrox.windowMargin = 50;
 				});
 
+			//additional code
+			breakpoints.on('<medium',function() {
+				document.getElementById("credits").innerHTML = "Photography: Amy Nguyen<br>Design: Harsha Srikara";
+			});
+			breakpoints.on('>=medium',function() {
+				document.getElementById("credits").innerHTML = "Photography: Amy Nguyen | Design: Harsha Srikara";
+			});
+
 })(jQuery);
