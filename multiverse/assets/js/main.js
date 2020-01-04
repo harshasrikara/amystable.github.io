@@ -287,3 +287,11 @@
 			});
 
 })(jQuery);
+
+
+function insertImages(x) {
+	mainDiv = document.getElementById("main");
+	for(i=x;i<x+12;i++) {
+		mainDiv.innerHTML += '<div id="' + i + 'div"></div>';
+	}
+}
