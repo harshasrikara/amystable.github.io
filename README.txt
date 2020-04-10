@@ -1,4 +1,4 @@
-# Amy's Table
+# Amy's Table - Food Blog
 
 https://www.instagram.com/amys.table/
 
